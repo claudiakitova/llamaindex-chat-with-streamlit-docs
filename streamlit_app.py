@@ -11,7 +11,6 @@ st.set_page_config(page_title="PhysicsTalks",
                    initial_sidebar_state="auto",
                    menu_items=None)
 
-openai.api_key = st.secrets.openai_key
 st.title("PhysicsTalks ☢️")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
